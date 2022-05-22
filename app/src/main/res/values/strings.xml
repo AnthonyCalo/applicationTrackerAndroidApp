@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Application Tracker Calo</string>
+    <string name="company_name">Company Name</string>
+    <string name="position">Position</string>
+    <string name="myStats">My Job Application Stats</string>
+    <string name="interviews">Interviews</string>
+    <string name="offers">Job Offers</string>
+    <string name="open">Open Applications</string>
+    <string name="zero">0</string>
+    <string name="opened">Open</string>
+    <string name="Instructions">Click on item to update or delete</string>
+
+
+
+
+
+    <string-array name="options">
+        <item>Movies</item>
+        <item>TV Shows</item>
+    </string-array>
+
+
+</resources>

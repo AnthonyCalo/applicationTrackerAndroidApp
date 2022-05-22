@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditApplication"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/companyName"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:height="80dp"
+        android:ems="10"
+        android:hint="@string/company_name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/positionTxt"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="15dp"
+        android:height="80dp"
+        android:ems="10"
+        android:hint="@string/position"
+        android:inputType="textPersonName" />
+
+    <Switch
+        android:id="@+id/interviewed"
+        android:layout_width="match_parent"
+        android:height="50dp"
+        android:layout_height="wrap_content"
+        android:text="Offered Interview" />
+
+    <Switch
+        android:id="@+id/offeredJob"
+        android:layout_width="match_parent"
+        android:height="50dp"
+        android:layout_height="wrap_content"
+        android:text="Job Offer" />
+
+    <Switch
+        android:id="@+id/openClosed"
+        android:height="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/opened" />
+
+    <Button
+        android:id="@+id/updateBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update" />
+    <Button
+        android:id="@+id/deleteBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete" />
+
+</LinearLayout>
